@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="80dp"
+
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/adoptions"
+        android:layout_height="wrap_content"
+        android:layout_width="273dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Adoptions"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#cff4f0" />
+    <Button
+        android:id="@+id/customers"
+        android:layout_height="wrap_content"
+        android:layout_width="274dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Customers"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_gravity="bottom"
+        android:background="#e1dfdf" />
+    <Button
+        android:id="@+id/animals"
+        android:layout_height="wrap_content"
+        android:layout_width="273dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="Animals"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#e1dfdf" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="273dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+
+        android:text="exit"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#e1dfdf" />
+
+</LinearLayout>
