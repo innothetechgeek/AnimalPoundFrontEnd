@@ -27,7 +27,11 @@ android {
 
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "www.innothetechgeek.za.petmanagementapp"
+=======
+        applicationId "www.innothetechgeek.za.petmapp"
+>>>>>>> 12ed3ec148f43fab4d7611912e285eaa067db91f
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1

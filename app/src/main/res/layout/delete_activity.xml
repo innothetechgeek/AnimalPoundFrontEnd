@@ -19,12 +19,20 @@
             android:id="@+id/d1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Adoption ID"
+=======
+            android:text="Acc id: "
+>>>>>>> 12ed3ec148f43fab4d7611912e285eaa067db91f
             android:layout_marginLeft="20dp"
             android:layout_marginTop="60dp"
             />
         <EditText
+<<<<<<< HEAD
             android:id="@+id/lblAdoptionIdDelete"
+=======
+            android:id="@+id/acciddel"
+>>>>>>> 12ed3ec148f43fab4d7611912e285eaa067db91f
             android:layout_height="wrap_content"
             android:layout_width="fill_parent"
             android:layout_marginTop="60dp"
@@ -33,7 +41,11 @@
     </RelativeLayout>
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/btnDeleteOne"
+=======
+        android:id="@+id/bdel"
+>>>>>>> 12ed3ec148f43fab4d7611912e285eaa067db91f
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_marginTop="10dp"

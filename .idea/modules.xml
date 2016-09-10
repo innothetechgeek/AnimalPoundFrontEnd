@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/PetManagementApp.iml" filepath="$PROJECT_DIR$/PetManagementApp.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/PetMApp4.iml" filepath="$PROJECT_DIR$/PetMApp4.iml" />
+>>>>>>> 12ed3ec148f43fab4d7611912e285eaa067db91f
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
