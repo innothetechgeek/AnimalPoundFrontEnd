@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingTop="70dp">
+    tools:context="www.innothetechgeek.za.petmanagementapp.AdoptionMenu">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Add New Adoption"
+        android:id="@+id/btnAddAdoption"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:text="ViewAll"
+        android:id="@+id/btnViewAllAdoptions"
+        android:layout_below="@+id/adoptions"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/adoptions"
+        android:layout_alignEnd="@+id/adoptions" />
+
+    <Button
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:text="View One"
+        android:id="@+id/btnViewAdoption"
+        android:layout_below="@+id/animals"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnDeleteAdoption" />
+
+</LinearLayout>
